@@ -1,13 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import './Home.css'
+import './Cart.css'
 
-const Home = () => {
+const Cart = () => {
   return (
     <div>
-
+        
     </div>
   )
 }
 
-export default Home
+export default Cart
