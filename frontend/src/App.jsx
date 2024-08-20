@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import { Route,Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
@@ -28,6 +28,7 @@ const App = () => {
       <AppDownload/>
       <Footer />
     </>
+
   )
 }
 
