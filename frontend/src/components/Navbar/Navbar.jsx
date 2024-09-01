@@ -4,7 +4,8 @@ import './Navbar.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 
-const Navbar = (setShowLogin) => {
+// eslint-disable-next-line react/prop-types
+const Navbar = ({setShowLogin}) => {
 
     const [menu,setMenu] = useState("menu");
 
