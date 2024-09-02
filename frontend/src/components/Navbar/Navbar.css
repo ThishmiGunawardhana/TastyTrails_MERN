@@ -49,17 +49,17 @@
 .navbar-search-icon{
     position: relative;
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 
 .navbar-search-icon .dot{
-    position: relative;
-    min-width: 10px;
-    min-height: 10px;
+    position: absolute;
+    min-width: 8px;
+    min-height: 8px;
     background-color: tomato;
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
+    border-radius: 10px;
+    top: 0px;
+    right: 118px;
 }
 
 @media (max-width:900px) {
